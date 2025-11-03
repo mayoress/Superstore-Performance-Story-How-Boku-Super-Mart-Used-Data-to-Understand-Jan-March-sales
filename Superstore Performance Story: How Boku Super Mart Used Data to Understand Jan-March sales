@@ -1,0 +1,142 @@
+Superstore Performance Story: How Boku Super Mart Used Data to Understand Jan-March sales
+
+Introduction
+In 2024, Boku Super Mart wanted to understand one thing clearly what drives its performance across cities, products, and customer behaviors?
+
+The company had strong operations in three major cities Naypyitaw, Mandalay, and Yangon and offered a wide range of products, from food and beverages to fashion and electronics. However, sales patterns were inconsistent, and management needed to know why.
+
+To answer that, we built a performance dashboard that brought together key metrics such as gross income, COGS (Cost of Goods Sold), customer ratings, and payment preferences.
+
+Story of the Data
+Every sale tells a small part of a larger story.
+For Boku Super Mart, that story included 1,000 customers, different payment methods, and changing purchase behaviors across cities.
+
+The data showed that Naypyitaw was the highest-performing city, while food and beverages were the best-selling product category. Customers preferred paying with cash, and most gave average to good ratings for their shopping experience.
+
+The challenge wasn’t lack of sales it was about finding patterns and meaning in those numbers.
+
+Problem Statement
+Despite steady sales, Boku Super Mart struggled with:
+
+Uneven gross income across months.
+Lack of clarity on which products and cities drove profits.
+Limited understanding of customer behavior and satisfaction.
+Difficulty choosing which payment methods to prioritize for marketing and system upgrades.
+Solution
+The solution was a data-driven analysis that focused on key performance indicators (KPIs):
+✅ COGS (by city, product, and payment method)
+✅ Gross income (by month and gender)
+✅ Customer type ratings and satisfaction
+✅ Payment preferences and purchasing trends
+
+Using these insights, Boku Super Mart could make evidence-based business decisions from marketing to stock management.
+
+Data Splitting and Preprocessing
+The dataset was divided into the following dimensions:
+
+Project Split
+
+Independent Variable:
+
+Branch
+City
+Gender
+Customer type
+Product line
+Payment
+Rating
+Dependent Variable
+
+Unit Price
+Quantity
+Tax
+Total
+Date
+Month
+Time
+COGS
+Gross Margin
+Gross Income
+City: Naypyitaw, Mandalay, Yangon
+Product Line: Food & Beverages, Sports, Electronics, Fashion, Home, Health & Beauty
+Payment Method: Cash, E-wallet, Credit Card
+Customer Gender: Male, Female
+Customer Rating: Good, Average, Bad
+Monthly Gross Income: January–March
+Data cleaning involved removing blanks in March income and ensuring accurate COGS values across categories. Gender-based and city-level comparisons were structured for clarity.
+
+Pre-Analysis
+Before diving in, the data showed:
+
+A total customer count of 1,000.
+Gross income fluctuated monthly, with February being the lowest.
+Most customers rated their experience as average (508) or good (481), with only 11 bad ratings.
+Cash was the most used payment method, followed by E-wallet and Credit Card.
+In-Analysis
+1. Monthly Gross Income Trends
+January: $5,538
+February: $4,629
+March: $5,212
+Gross income dipped in February, possibly due to seasonal or promotional changes.
+2. City Performance
+Naypyitaw: COGS $105,304 — highest-performing city
+Mandalay & Yangon: around $101,000 each
+Naypyitaw’s strong numbers suggest higher demand or better pricing strategy.
+3. Product Line Insights
+Top Seller: Food & Beverages ($52,498)
+Lowest: Health & Beauty ($46,851)
+Food drives the highest profit margins, while health products may need targeted marketing.
+4. Payment Behavior
+Cash: $106,863 — most preferred
+E-Wallet: $104,755
+Credit Card: $95,969
+Cash remains dominant, but the small gap with e-wallets shows a shift toward digital payments.
+5. Gender and Income
+Males: Slightly higher income in most categories except Food & Beverages and Fashion, where females lead.
+This balance highlights an inclusive customer base with shared spending patterns.
+Post-Analysis and Insights
+Naypyitaw is Boku Super Mart’s strongest market high COGS and steady income.
+Food and beverages dominate sales; promotional focus here can boost short-term profits.
+Cash payments are still king, but E-wallets are closing in, showing digital adoption growth.
+Customer ratings are mostly positive, but Boku should address factors behind “average” feedback to improve loyalty.
+Gender-based analysis reveals balanced participation — opportunities exist to personalize promotions for both groups.
+Data Visualizations & Charts
+The dashboard included:
+
+Line chart: Monthly Gross Income (Jan–Mar)
+Press enter or click to view image in full size
+
+Pie chart: Customer Ratings by Type
+
+Bar charts:
+COGS by City
+
+COGS by Product Line
+
+COGS by Payment Method
+
+Gender-Based Gross Income
+
+These visuals made complex data simple, allowing decision-makers to see key insights at a glance.
+
+Recommendations and Observations
+Invest more in Naypyitaw, expand branches or run loyalty campaigns in the top-performing city.
+Enhance Food & Beverages promotions, focus on upselling premium options or bundled offers.
+Encourage digital payments, offer discounts for E-wallet or credit card users to balance payment preferences.
+Improve “average” customer experiences use feedback surveys to understand what’s missing.
+Personalize marketing by gender, female customers show higher spending in key categories like fashion and food.
+Conclusion
+Boku Super Mart’s 2024 sales data revealed more than numbers it told a story of where the store shines and where it can grow.
+
+By focusing on city performance, customer satisfaction, and modern payment trends, Boku is set to turn insights into smarter strategies for 2025.
+Data isn’t just for analysis it’s a mirror showing what’s working and what’s worth improving.
+
+References & Appendices
+Source: Kaggle Datasets
+Tools Used: Excel, Data visualization, Pivot Table.
+Analyst: Glory Olatunde
+Institution: Vephla University
+Problem Summary
+Problem: Boku Super Mart lacked insight into which cities, products, and payment methods drove performance.
+
+Solution: Excel dashboard was built to analyze monthly income, COGS, and customer behavior helping leadership understand their best markets, strongest products, and emerging trends for 2025 and 2026
